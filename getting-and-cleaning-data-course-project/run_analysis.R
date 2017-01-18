@@ -74,7 +74,7 @@ names(Data)<-gsub("BodyBody", "Body", names(Data))
 
 names(Data)
 
-##Second Tidy Data Set
+##Create Second Tidy Data Set
 library(plyr);
 Data2<-aggregate(. ~subject + activity, Data, mean)
 Data2<-Data2[order(Data2$subject,Data2$activity),]
