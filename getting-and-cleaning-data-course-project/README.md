@@ -13,12 +13,12 @@ Look out for following comments in the script -
   9. mean and standard deviation
   10. Subset the data frame Data by seleted names of Features
   11. Renaming the variables
-      ##prefix t is time
-      ##Acc is Accelerometer
-      ##Gyro is Gyroscope
-      ##prefix f is frequency
-      ##Mag is Magnitude
-      ##BodyBody is Body
+      a. prefix t is time
+      b. Acc is Accelerometer
+      c. Gyro is Gyroscope
+      d. prefix f is frequency
+      e. Mag is Magnitude
+      f. BodyBody is Body
   12. Create Second Tidy Data Set
 
 
